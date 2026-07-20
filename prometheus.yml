@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 5s # Scrape metrics every 5 seconds for rapid feedback during tests
+
+scrape_configs:
+  - job_name: 'fastapi-healthcare-app'
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: ['healthcare-api:8000'] # Using the service name from docker-compose
