@@ -25,6 +25,7 @@ dist/
 
 # JMeter reports
 jmeter/report/
+jmeter/results.jtl
 
 # Logs
 *.log
