@@ -23,6 +23,9 @@ env/
 build/
 dist/
 
+# JMeter reports
+jmeter/report/
+
 # Logs
 *.log
 
